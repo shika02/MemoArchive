@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MemoArchive</string>
+    <string name="str_add_memo">Add A Memo</string>
 </resources>
