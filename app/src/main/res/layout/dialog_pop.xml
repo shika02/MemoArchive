@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/dialog_textv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_add_memo"
+        android:layout_marginTop="@dimen/dialog_vetical_margin"
+        android:layout_marginBottom="@dimen/dialog_horizontal_margin"
+        android:textSize="@dimen/dialog_text_size"/>
+    <ImageButton
+        android:id="@+id/img_crossbtn"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignBottom="@+id/dialog_textv"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/dialog_textv"
+        android:src="@drawable/ic_close"
+        android:background="@null"
+        />
+
+    <EditText
+        android:id="@+id/dialog_editv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_textv"
+        android:hint="@string/dialog_hint"
+        android:inputType="textShortMessage"
+        android:singleLine="true"
+        android:padding="16dp"/>
+
+    <DatePicker
+        android:id="@+id/memodp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_editv"
+        />
+
+
+    <Button
+        android:id="@+id/add_it_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/memodp"
+        android:text="@string/str_add_it"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>

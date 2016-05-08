@@ -3,4 +3,6 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="bg_row_memo_dark">#BD8E79BB</color>
+    <color name="bg_row_memo_light">#4A8E79BB</color>
 </resources>
